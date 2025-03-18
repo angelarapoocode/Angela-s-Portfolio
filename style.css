@@ -1,4 +1,71 @@
 body {
-    background-color: bisque;
-    
+    background-color:rgb(245, 236, 236);
+    padding:0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* Styling the header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    padding: 15px 15px;
+    background-color: rgb(147, 18, 18);
+}
+
+/*Stlying for "Angela's Portfolio"*/
+.logo {
+    color: rgb(241, 232, 232);
+    width: 600px;
+}
+
+/*Navigation container*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 180x;
+}
+.my-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: red 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.profile-picture {
+    float: right;
+    margin-left: 60px;
+    width: 300px;
+    height:auto;
+}
+
+.hire-me-button {
+    background-color: green;
+    color: white;
+    padding-bottom: 30px 30px;
+    text-align: center;
+    font-size: 16px;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hire-me-button: hover {
+    background-color: #45a049;
 }
