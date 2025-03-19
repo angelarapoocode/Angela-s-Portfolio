@@ -1,8 +1,8 @@
 body {
-    background-color:rgb(245, 236, 236);
+    background-color:rgb(235, 233, 233);
     padding:0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 /* Styling the header*/
@@ -10,14 +10,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: centre;
-    padding: 15px 15px;
     background-color: rgb(147, 18, 18);
 }
 
 /*Stlying for "Angela's Portfolio"*/
 .logo {
     color: rgb(241, 232, 232);
-    width: 600px;
+    width: 25px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-left: 30px;
 }
 
 /*Navigation container*/
@@ -26,6 +28,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 100px;
 }
 nav ul li {
     display: inline-block;
@@ -37,35 +41,52 @@ nav ul li a{
     text-decoration: none;
     font-size: 180x;
 }
-.my-name {
+
+/*style the intro section*/
+.intro-container {
+    width: 40px
+    text-align: left
+    margin: 50px;
+}
+
+/*style each paragraph*/
+.intro-text p {
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: red 
+    text-align: left;
+    margin-left: 30px;
 }
 
-.container {
-    display: flex;
-    align-items: center;
+/*style the name*/
+.my-name {
+    font-weight: bold;
+    color: red;
+    font-size: 28px;
 }
-.profile-picture {
-    float: right;
-    margin-left: 60px;
-    width: 300px;
-    height:auto;
-}
-
-.hire-me-button {
-    background-color: green;
+ /*Style the Hire Me button*/
+ .Hire-Me {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
     color: white;
-    padding-bottom: 30px 30px;
-    text-align: center;
-    font-size: 16px;
-    border: black;
-    border-radius: 10px;
+    background-color: #e63946;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.3s ease;
+ }
+
+ .hire-me hover {
+    background-color: #c92c37
+ }
 }
 
-.hire-me-button: hover {
-    background-color: #45a049;
+.tech-stack {
+    text-align: centre;
+    display: inline-block;
+    margin: 10px;
 }
